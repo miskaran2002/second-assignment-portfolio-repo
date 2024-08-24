@@ -1,0 +1,362 @@
+
+/* mainsection start */
+.initial{
+    color: orange;
+    margin-top: 120px;
+    margin-left: 550px;
+}
+.middle-class{
+    font-size: 35px;
+    margin-left: 450px
+}
+.items{
+display: grid;
+grid-template-columns:repeat(3,1fr); 
+align-items: center;
+width: fit-content;
+}
+
+.items img{
+    width: 100%; 
+     height: 100%; 
+    object-fit: cover;
+    border-radius: 10px;
+}
+.button-cont{
+    display: flex;
+    margin-left: 490px;
+    gap: 10px;
+    background-color: orange;
+    align-items: center;
+    padding:10px 20px 10px 20px ;
+    border-radius: 40px;
+}
+.address{
+    margin-top: 200px;
+}
+.addr-first{
+    color: orange;
+    margin-left:540px ;
+    
+}
+.addr-second{
+    font-size:30px ;
+    margin-left: 400px;
+    margin-bottom: 40px;
+}
+.addr-first-card{
+    
+    border: 1px solid rgb(197, 187, 187); 
+    border-radius: 15px;   
+    margin-top: 50px;
+    gap: 20px;
+    margin:10px 10px 10px 10px;
+
+}
+.addr-third{
+    display: grid;
+    grid-template-columns:repeat(3,1fr); 
+    align-items: center;
+    width: fit-content; 
+    object-fit: cover;
+
+}
+.card-one{
+    margin-left: 130px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.card-two{
+    margin-left: 80px;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.card-three{
+    margin-left: 10px;
+    margin-right:10px ;
+    margin-bottom:20px ;
+}
+/* main section end */
+/* testimonial section start */
+.testimonial{
+    margin-top: 120px;
+}
+.testimonial-first{
+    color: orange;
+    margin-left: 530px;
+}
+.testimonial-second{
+    font-size: 40px;
+    margin-left: 430px;
+    margin-bottom: 80px;
+}
+.testimonial-items{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    width: fit-content;
+    object-fit: cover;
+}
+.testimonial-right{
+    width: 40%;
+    background-color: whitesmoke;
+    padding: 8px 8px 8px 8px;
+    border-radius: 10px;
+}
+
+.testimonial-right img{
+    width: 250%;
+   
+   
+    
+}
+.testimonial-left{
+    background-color:rgb(215, 199, 199) ;
+    border-radius: 10px;
+    width: fit-content;
+    padding-top: 8px;
+    padding-bottom:8px ;
+    padding-left:30px;
+    padding-right: 30px;
+    margin-right: 20px ;
+}
+.testi-three{
+    display: flex;
+    justify-content: space-between; 
+
+}
+.testy-infinity{
+    display: flex;
+    align-items: center;
+}
+
+.itspoi{
+    font-size: 25px;
+}
+
+/* testimonial section end */
+/* subscribe section start */
+
+
+/* subscribe section end */
+.subscriber{
+    background-color: black; 
+    margin-top: 120px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.subscriber-left{
+    margin-left: 90px;
+}
+.subs-one{
+    color: white;
+    font-size:30px ;
+    margin-top:10px ;
+    margin-bottom:10px ;
+    margin-right: 10px;
+}
+.subs-two{
+   color: white;
+   margin-bottom:20px ; 
+}
+.subs-three{
+     font-size: 30px;    
+    background-color: white;
+     width: fit-content; 
+    border: none;
+    padding: 5px 5px 5px 5px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    gap: 200px;
+   
+}
+
+::placeholder{
+    
+    font-size: 20px;
+}
+
+
+.subm-subs{
+    background-color: orange;
+    padding: 12px 12px 12px 12px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 150px;
+
+
+}
+.input{
+    border: none;
+    border-radius: 10px;
+}
+/* subscribe section end */
+/* footer section start */
+.footer{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.foot-one{
+    margin-top: 15px;
+}
+.foot-one h2{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.foot-one p{
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.foot-one a{
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+.foot-one a:hover{
+    color: orange;
+}
+.foot-two{
+    margin-top:15px ;
+}
+.foot-three{
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+   
+
+.forma{
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    border: none;
+    border-radius: 30px;
+    padding: 20px 20px 20px 20px;
+    margin-top: 25px;
+    background-color: antiquewhite;
+}
+.forma:hover{
+     background-color: orange; 
+   
+}
+.inp{
+    margin-left: 10px;
+}
+
+
+
+
+/* footer section end */
+/* media query */
+
+@media only screen and (min-width:200px)and (max-width: 600px){
+    
+    
+.initial{
+    margin-left: 290px;
+
+}
+
+.middle-class{
+    
+    margin-left: 280px;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-top: 10px;
+}
+.items{
+    display: grid;
+    grid-template-columns:repeat(2,1fr); 
+    align-items: center;
+    width: 180%;
+    }
+     .button-cont{
+       
+        margin-left: 260px;
+        padding-left: 40px;
+        padding-right: 40px;
+       
+    }
+
+.addr-first{
+    
+     margin-left:260px ;
+ }
+
+
+.addr-second{
+    font-size:10px ;
+    margin-left: 240px;
+    margin-top: 15px;
+   
+}
+.card-one{
+    margin-left: 120px;
+   
+}
+.card-two{
+    margin-left: 110px;
+
+}
+
+.testimonial-first{
+   
+    margin-left: 270px;
+}
+.testimonial-second{
+    font-size: 13px;
+     margin-left: 260px; 
+    
+}
+.testimonial-left{
+     width: 100%; 
+}
+.testimonial-right{
+   margin-left: 90px;
+  
+}
+   
+.testimonial-right img{
+    width: 700%;   
+    
+}
+
+.subscriber-left{
+   margin-left: 15px;
+   
+}
+.subscriber-right{
+   
+    padding-left: 28px;
+}
+
+.subscriber{
+  
+    width: fit-content;
+}
+
+.subs-one{
+    color:white;
+    
+}
+.subs-two{
+  
+   color:white;
+}
+.footer{
+   gap: 35px;
+   margin-bottom: 50px;
+}    
+
+}
+/* media query end */
+
+
+
+

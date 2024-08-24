@@ -1,0 +1,229 @@
+/* nav section start */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 35px;
+    
+}
+.left-logo{
+    display: flex;
+     width: 50%;
+     justify-content: space-between; 
+     align-items: center;
+}
+.right-logo{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: space-between;
+}
+.right-mid-logo{
+    display: flex;
+    gap: 5px;
+}
+.right-last-logo{
+    display: flex;
+    align-items: center;
+    gap: 5px; 
+
+}
+.imp-logo{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    background-color:aliceblue;
+    border-radius: 20px;
+
+}
+/* nav section end */
+/* banner section start */
+.banner{
+    display: flex;
+}
+.b-left-side{
+    width: 50%;
+}
+.b-one{
+    display: flex;
+    align-items: center;
+    background-color:rgba(245, 221, 196, 1);
+
+    border-radius: 20px;
+    width: fit-content;
+    gap: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+.b-one-first{
+    color: rgba(244, 142, 40, 1);
+    font-size: 20px;
+}
+.b-one-second{  
+    border-radius: 60px;   
+}
+.b-two{
+    font-size: 80px;
+    margin-top: 60px;
+}
+.one{
+ color:orange;
+}
+.two{
+    color: orange;
+}
+.b-three{
+    margin-top: 30px;
+    font-size: 20px;
+}
+.four{
+    display:flex ;
+     align-items: center; 
+    margin-top:35px ;
+    justify-content: space-between;
+}
+.four-one{
+    font-size: 30px;
+    background-color:orange;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+   
+}
+.four-two{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.lormet{
+    font-size: 30px;
+    
+}
+b.middle-site{
+     width: 30%;  
+    
+}
+.immm{
+    margin-top: 500px;
+    
+}
+.b-right-side{   
+display: grid;
+grid-template-columns:repeat(2,1fr); 
+ margin-top: 90px;
+ gap: 20px;
+ height: auto; 
+ align-items: center;
+ width: fit-content;
+   
+}
+.b-right-side img{
+    width: 100%;
+    height: 120%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.middle-banner{
+    margin-top: 90px;
+    background-color: whitesmoke;
+    border-radius:40px ;
+    display: flex; 
+    align-items: center;
+    
+}
+.asd{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 60px; 
+    margin-right: auto;
+    gap: 60px;
+    align-items: center;
+}
+
+.mid-one{
+    align-items: center;
+    margin-left: 100px;
+}
+.mid-two{ 
+    font-size:30px ;
+}
+.mid-three{
+    font-size: 20px;
+    margin-left:80px ;
+    /* banner section end */
+
+
+}
+/* media query start */
+@media only screen and (min-width:200px)and (max-width: 600px){
+/* nav start */
+.nav{
+
+    display: flex;
+    justify-content: space-between;
+    gap: 62px;
+}
+.right-logo{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 65px;
+}
+.left-logo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 65px;
+}
+/* nav end */
+/* banner start */
+.b-left-side{
+    width: 100%;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    width: 185%;
+    flex-direction: column;
+
+}
+.immm{
+   margin-top:0px;
+   width: 80%; 
+}
+
+.b-right-side{
+    
+    display: grid;
+    grid-template-columns:repeat(2,1fr); 
+    width:fit-content ;
+     
+        
+ }
+
+
+ .middle-banner{
+    
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+    width: 180%;
+    padding-bottom: 40px;
+    
+}
+.asd{
+    margin-left: 200px;
+}
+.lormet{
+    margin-right: 20px;
+}
+/* banner end */
+
+
+}
+/* media query end */
